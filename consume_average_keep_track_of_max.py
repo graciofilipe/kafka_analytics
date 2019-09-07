@@ -1,8 +1,4 @@
-import json
-from time import sleep
-from collections import deque
 from kafka import KafkaConsumer, KafkaProducer
-import numpy as np
 
 
 
