@@ -16,6 +16,7 @@ def publish_message(producer_instance, topic_name, key, value):
         print(str(ex))
 
 
+
 def publish_rolling_average(consumer, producer, n):
     que = deque([0 for _  in range(n)])
     for message in consumer:
